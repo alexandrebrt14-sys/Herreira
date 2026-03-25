@@ -5,69 +5,74 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Herreira Joias — Plano Estratégico de Assessoria | Brasil GEO</title>
 <meta name="description" content="Assessoria financeira, marketing e vendas para Herreira Joias. Benchmark Vivara. Plano de R$ 1,4M em melhorias identificadas.">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--gold:#b8860b;--gold-light:#f5e6c8;--gold-dark:#8b6914;--rose:#d4a5a5;--text:#2c2c2c;--muted:#6b6b6b;--border:#e8e0d4;--card:#fff;--bg:#faf8f5;--radius:4px;--max:1080px;--shadow:0 2px 12px rgba(0,0,0,.06)}
-body{font-family:'Inter',system-ui,sans-serif;color:var(--text);background:var(--bg);line-height:1.7}
-a{color:var(--gold-dark);text-decoration:none}
-.mx{max-width:var(--max);margin:0 auto;padding:0 24px}
-.sec{padding:72px 0}
-.sec-gold{background:linear-gradient(135deg,#1a1a1a 0%,#2c2420 100%);color:#fff}
+:root{--gold:#c9a96e;--gold-light:#f0e6d2;--gold-dark:#a08040;--gold-deep:#8b6914;--rose:#d4a5a5;--text:#1c1c1c;--muted:#5a5a5a;--border:#e0d8cc;--card:#fff;--bg:#faf8f4;--black:#0a0a0a;--cream:#f5f0e8;--radius:6px;--max:1100px;--shadow:0 4px 20px rgba(0,0,0,.08)}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,-apple-system,sans-serif;color:var(--text);background:var(--bg);line-height:1.75;-webkit-font-smoothing:antialiased}
+a{color:var(--gold-dark);text-decoration:none;transition:color .2s}
+a:hover{color:var(--gold)}
+.mx{max-width:var(--max);margin:0 auto;padding:0 32px}
+.sec{padding:80px 0}
+.sec-gold{background:linear-gradient(160deg,#0a0a0a 0%,#1a1510 60%,#2c2418 100%);color:#fff}
 .sec-alt{background:#fff}
-h1,h2,h3{font-family:'Playfair Display',Georgia,serif}
-h1{font-size:clamp(32px,5vw,52px);font-weight:800;line-height:1.1}
-h2{font-size:clamp(24px,3.5vw,36px);font-weight:700;line-height:1.15;margin-bottom:12px}
-h3{font-size:20px;font-weight:600;margin-bottom:8px}
-.lab{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.2em;color:var(--gold);margin-bottom:8px}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;letter-spacing:-.01em}
+h1{font-size:clamp(34px,5vw,56px);font-weight:800;line-height:1.08}
+h2{font-size:clamp(26px,3.5vw,38px);font-weight:700;line-height:1.12;margin-bottom:14px}
+h3{font-size:21px;font-weight:600;margin-bottom:10px}
+.lab{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.25em;color:var(--gold);margin-bottom:10px;font-family:'Inter',sans-serif}
 .lab-w{color:var(--gold-light)}
-.sub{font-size:17px;color:var(--muted);max-width:680px;margin-bottom:32px}
-.sub-w{color:rgba(255,255,255,.65)}
-.g2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.sub{font-size:16px;color:var(--muted);max-width:680px;margin-bottom:36px;line-height:1.8;font-family:'Cormorant Garamond',Georgia,serif;font-size:18px}
+.sub-w{color:rgba(255,255,255,.6)}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
 @media(max-width:768px){.g2,.g3,.g4{grid-template-columns:1fr}}
-.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;transition:all .3s}
-.card:hover{box-shadow:var(--shadow);transform:translateY(-2px)}
-.stat{text-align:center;padding:20px}
-.sv{font-size:32px;font-weight:800;color:var(--gold-dark);font-family:'Playfair Display',serif}
-.sl{font-size:12px;color:var(--muted);margin-top:4px}
-.tag{display:inline-block;font-size:10px;font-weight:700;padding:4px 12px;border-radius:20px;text-transform:uppercase}
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;transition:all .35s ease}
+.card:hover{box-shadow:var(--shadow);transform:translateY(-3px);border-color:var(--gold-light)}
+.stat{text-align:center;padding:24px}
+.sv{font-size:34px;font-weight:800;color:var(--gold-dark);font-family:'Playfair Display',serif}
+.sl{font-size:11px;color:var(--muted);margin-top:6px;text-transform:uppercase;letter-spacing:.08em;font-weight:500}
+.tag{display:inline-block;font-size:9px;font-weight:700;padding:5px 14px;border-radius:20px;text-transform:uppercase;letter-spacing:.05em}
 .t-urgente{background:#fef2f2;color:#dc2626}
 .t-alto{background:#fef7ed;color:#c2410c}
 .t-medio{background:var(--gold-light);color:var(--gold-dark)}
 .t-ok{background:#f0faf4;color:#2e844a}
-.pill{display:inline-block;font-size:11px;font-weight:600;padding:3px 10px;border-radius:var(--radius);border:1px solid var(--border);color:var(--muted);margin:2px}
+.pill{display:inline-block;font-size:11px;font-weight:600;padding:4px 12px;border-radius:var(--radius);border:1px solid var(--border);color:var(--muted);margin:2px}
 .kpi-row{display:flex;gap:12px;margin:12px 0;flex-wrap:wrap}
-.kpi{background:var(--gold-light);padding:8px 16px;border-radius:var(--radius);font-size:13px;font-weight:600;color:var(--gold-dark)}
-.timeline-item{display:flex;gap:16px;padding:16px 0;border-bottom:1px solid var(--border)}
+.kpi{background:var(--gold-light);padding:8px 18px;border-radius:var(--radius);font-size:13px;font-weight:600;color:var(--gold-dark)}
+.timeline-item{display:flex;gap:20px;padding:20px 0;border-bottom:1px solid var(--border)}
 .timeline-item:last-child{border-bottom:none}
-.tl-num{width:36px;height:36px;border-radius:50%;background:var(--gold);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;flex-shrink:0}
-.cmp-table{width:100%;border-collapse:collapse;font-size:14px}
-.cmp-table th{background:var(--gold-dark);color:#fff;padding:12px 16px;text-align:left;font-weight:600;font-family:'Playfair Display',serif}
-.cmp-table td{padding:10px 16px;border-bottom:1px solid var(--border)}
-.cmp-table tr:hover td{background:var(--gold-light)}
+.tl-num{width:40px;height:40px;border-radius:50%;background:var(--gold);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;flex-shrink:0;font-family:'Playfair Display',serif}
+.cmp-table{width:100%;border-collapse:separate;border-spacing:0;font-size:14px;border-radius:var(--radius);overflow:hidden;border:1px solid var(--border)}
+.cmp-table th{background:var(--black);color:var(--gold-light);padding:14px 16px;text-align:left;font-weight:600;font-family:'Playfair Display',serif;font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+.cmp-table td{padding:12px 16px;border-bottom:1px solid var(--border);font-size:13px}
+.cmp-table tr:hover td{background:rgba(201,169,110,.06)}
+.cmp-table tbody tr:last-child td{border-bottom:none}
 .ck{color:#2e844a;font-weight:700}
 .xx{color:#dc2626;font-weight:700}
-.cta-box{background:linear-gradient(135deg,var(--gold-dark) 0%,var(--gold) 100%);color:#fff;text-align:center;padding:48px 24px;border-radius:8px}
-.cta-btn{display:inline-block;background:#fff;color:var(--gold-dark);font-weight:700;padding:14px 36px;border-radius:var(--radius);font-size:16px;font-family:'Playfair Display',serif;letter-spacing:.02em;transition:all .3s}
-.cta-btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.2);text-decoration:none}
-.top{background:#fff;border-bottom:1px solid var(--border);padding:12px 0;position:sticky;top:0;z-index:50}
+.cta-box{background:linear-gradient(160deg,var(--black) 0%,#1a1510 100%);color:#fff;text-align:center;padding:56px 32px;border-radius:var(--radius);border:1px solid rgba(201,169,110,.2)}
+.cta-btn{display:inline-block;background:var(--gold);color:var(--black);font-weight:700;padding:16px 40px;border-radius:var(--radius);font-size:15px;font-family:'Playfair Display',serif;letter-spacing:.04em;transition:all .35s;border:none}
+.cta-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(201,169,110,.35);background:var(--gold-light);color:var(--black);text-decoration:none}
+.top{background:rgba(255,255,255,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:14px 0;position:sticky;top:0;z-index:50;transition:box-shadow .3s}
 .top-in{display:flex;align-items:center;justify-content:space-between}
-.top .br{font-family:'Playfair Display',serif;font-weight:700;font-size:18px;color:var(--gold-dark);letter-spacing:.05em}
-.top nav a{font-size:13px;color:var(--muted);margin-left:20px;font-weight:500}
-.pilar{border-left:4px solid var(--gold);padding:20px 24px;background:#fff;border-radius:0 var(--radius) var(--radius) 0;margin-bottom:16px;border-top:1px solid var(--border);border-right:1px solid var(--border);border-bottom:1px solid var(--border)}
-.alert{background:#fef2f2;border:1px solid #fecaca;border-radius:var(--radius);padding:16px 20px;margin:16px 0}
-.alert-title{font-weight:700;color:#dc2626;margin-bottom:4px}
-footer{border-top:1px solid var(--border);padding:32px 0;text-align:center;font-size:13px;color:var(--muted)}
+.top .br{font-family:'Playfair Display',serif;font-weight:700;font-size:19px;color:var(--black);letter-spacing:.06em}
+.top nav a{font-size:12px;color:var(--muted);margin-left:22px;font-weight:500;text-transform:uppercase;letter-spacing:.06em;transition:color .2s}
+.top nav a:hover{color:var(--gold-dark)}
+.pilar{border-left:3px solid var(--gold);padding:24px 28px;background:#fff;border-radius:0 var(--radius) var(--radius) 0;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.alert{background:#fef2f2;border:1px solid #fecaca;border-radius:var(--radius);padding:18px 24px;margin:16px 0}
+.alert-title{font-weight:700;color:#dc2626;margin-bottom:4px;font-size:14px}
+footer{border-top:1px solid var(--border);padding:40px 0;text-align:center;font-size:12px;color:var(--muted);letter-spacing:.02em}
 .swot-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 @media(max-width:768px){.swot-grid{grid-template-columns:1fr}}
-.swot-card{padding:24px;border-radius:var(--radius);border:1px solid var(--border)}
-.swot-s{background:#f0faf4;border-left:4px solid #2e844a}
-.swot-w{background:#fef2f2;border-left:4px solid #dc2626}
-.swot-o{background:#eff6ff;border-left:4px solid #2563eb}
-.swot-t{background:#fef7ed;border-left:4px solid #c2410c}
-.swot-card h3{font-size:18px;margin-bottom:12px}
+.swot-card{padding:28px;border-radius:var(--radius);border:1px solid var(--border);transition:all .3s}
+.swot-card:hover{box-shadow:var(--shadow);transform:translateY(-2px)}
+.swot-s{background:#f0faf4;border-left:3px solid #2e844a}
+.swot-w{background:#fef2f2;border-left:3px solid #dc2626}
+.swot-o{background:#eff6ff;border-left:3px solid #2563eb}
+.swot-t{background:#fef7ed;border-left:3px solid #c2410c}
+.swot-card h3{font-size:18px;margin-bottom:14px;font-family:'Playfair Display',serif}
 .swot-card ul{font-size:13px;color:var(--muted);padding-left:18px;line-height:1.9}
 .ux-item{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px 24px;margin-bottom:16px}
 .ux-item h4{font-size:15px;margin-bottom:6px;color:var(--text)}
@@ -98,32 +103,32 @@ footer{border-top:1px solid var(--border);padding:32px 0;text-align:center;font-
 <body>
 
 <div class="top"><div class="mx top-in">
-<a href="https://alexandrecaramaschi.com" class="br">Herreira Joias</a>
+<a href="https://alexandrecaramaschi.com" class="br">Herreira</a>
 <nav>
 <a href="#diagnostico">Diagnóstico</a>
 <a href="#benchmark">Benchmark</a>
-<a href="#bench10">10 Concorrentes</a>
+<a href="#bench10">Concorrentes</a>
 <a href="#swot">SWOT</a>
-<a href="#ux">Auditoria UX</a>
+<a href="#ux">UX</a>
 <a href="#plano">Plano</a>
-<a href="#branding">Paty Caramaschi</a>
-<a href="#historia">História</a>
-<a href="#visibilidade">Visibilidade IA</a>
+<a href="#branding">Paty</a>
+<a href="#mercado">Mercado</a>
+<a href="#calendario">Calendário</a>
 <a href="#financeiro">Financeiro</a>
 </nav>
 </div></div>
 
 <!-- HERO -->
-<div class="sec sec-gold" style="padding:80px 0 56px">
+<div class="sec sec-gold" style="padding:100px 0 72px">
 <div class="mx">
-<p class="lab lab-w">Assessoria Estratégica — Brasil GEO</p>
-<h1 style="color:#fff;max-width:750px">Herreira Joias: de R$ 12 milhões para o próximo nível</h1>
-<p class="sub sub-w" style="margin-top:16px">Plano completo de assessoria financeira, marketing digital e vendas para a Herreira Joias da CEO Paty Caramaschi. Benchmark: Vivara (VIVA3, R$ 3,8B). Potencial identificado: R$ 1,4M/ano em melhorias operacionais.</p>
-<div class="g4" style="margin-top:32px">
-<div style="text-align:center;padding:16px;background:rgba(255,255,255,.08);border-radius:var(--radius)"><div style="font-size:28px;font-weight:800;color:var(--gold-light);font-family:'Playfair Display',serif">R$ 12,1M</div><div style="font-size:12px;color:rgba(255,255,255,.5);margin-top:4px">Receita Herreira 2025</div></div>
-<div style="text-align:center;padding:16px;background:rgba(255,255,255,.08);border-radius:var(--radius)"><div style="font-size:28px;font-weight:800;color:#86efac;font-family:'Playfair Display',serif">+26,8%</div><div style="font-size:12px;color:rgba(255,255,255,.5);margin-top:4px">Crescimento anual</div></div>
-<div style="text-align:center;padding:16px;background:rgba(255,255,255,.08);border-radius:var(--radius)"><div style="font-size:28px;font-weight:800;color:#fbbf24;font-family:'Playfair Display',serif">R$ 1,4M</div><div style="font-size:12px;color:rgba(255,255,255,.5);margin-top:4px">Potencial de melhoria/ano</div></div>
-<div style="text-align:center;padding:16px;background:rgba(255,255,255,.08);border-radius:var(--radius)"><div style="font-size:28px;font-weight:800;color:var(--gold-light);font-family:'Playfair Display',serif">17 anos</div><div style="font-size:12px;color:rgba(255,255,255,.5);margin-top:4px">De história e crescimento</div></div>
+<p class="lab lab-w" style="letter-spacing:.35em;font-size:9px">Assessoria Estratégica — Brasil GEO</p>
+<h1 style="color:#fff;max-width:780px;margin-top:8px">Herreira Joias<br><span style="font-weight:400;font-style:italic;font-size:clamp(20px,3vw,32px);color:var(--gold-light)">de R$ 12 milhões para o próximo nível</span></h1>
+<p class="sub sub-w" style="margin-top:20px;font-family:'Cormorant Garamond',serif;font-size:19px;line-height:1.7">Plano completo de assessoria financeira, marketing digital e vendas para a Herreira Joias da CEO Paty Caramaschi. Benchmark: Vivara (VIVA3, R$ 3,8B). Potencial identificado: R$ 1,4M/ano em melhorias operacionais.</p>
+<div class="g4" style="margin-top:44px">
+<div style="text-align:center;padding:28px 16px;background:rgba(255,255,255,.03);border-radius:var(--radius);border:1px solid rgba(201,169,110,.12)"><div style="font-size:34px;font-weight:800;color:var(--gold-light);font-family:'Playfair Display',serif">R$ 12,1M</div><div style="font-size:9px;color:rgba(255,255,255,.35);margin-top:8px;text-transform:uppercase;letter-spacing:.15em;font-weight:500">Receita Herreira 2025</div></div>
+<div style="text-align:center;padding:28px 16px;background:rgba(255,255,255,.03);border-radius:var(--radius);border:1px solid rgba(201,169,110,.12)"><div style="font-size:34px;font-weight:800;color:#86efac;font-family:'Playfair Display',serif">+26,8%</div><div style="font-size:9px;color:rgba(255,255,255,.35);margin-top:8px;text-transform:uppercase;letter-spacing:.15em;font-weight:500">Crescimento anual</div></div>
+<div style="text-align:center;padding:28px 16px;background:rgba(255,255,255,.03);border-radius:var(--radius);border:1px solid rgba(201,169,110,.12)"><div style="font-size:34px;font-weight:800;color:#fbbf24;font-family:'Playfair Display',serif">R$ 1,4M</div><div style="font-size:9px;color:rgba(255,255,255,.35);margin-top:8px;text-transform:uppercase;letter-spacing:.15em;font-weight:500">Potencial de melhoria</div></div>
+<div style="text-align:center;padding:28px 16px;background:rgba(255,255,255,.03);border-radius:var(--radius);border:1px solid rgba(201,169,110,.12)"><div style="font-size:34px;font-weight:800;color:var(--gold-light);font-family:'Playfair Display',serif">17 anos</div><div style="font-size:9px;color:rgba(255,255,255,.35);margin-top:8px;text-transform:uppercase;letter-spacing:.15em;font-weight:500">De tradição e inovação</div></div>
 </div>
 </div>
 </div>
@@ -869,6 +874,223 @@ footer{border-top:1px solid var(--border);padding:32px 0;text-align:center;font-
 <p style="font-size:13px;color:var(--muted);margin-top:12px"><strong>Composição mensal:</strong> Assessoria de imprensa (R$ 5-10K) + Videomaker/Editor (R$ 8-13K) + Envio de peças/press trips (R$ 2-4K) + Ferramentas e design (R$ 1-2K). O retorno vem em 3 frentes: aumento de vendas da Herreira pelo efeito halo da marca pessoal, receita direta com infoproduto (Escola Paty: R$ 150-250K/lançamento), e valorização da marca para eventual exit ou captação de investimento.</p>
 </div>
 
+</div>
+</div>
+
+<!-- PANORAMA DE MERCADO 2026 -->
+<div class="sec" id="mercado" style="background:linear-gradient(160deg,#0a0a0a 0%,#1a1510 60%,#2c2418 100%);color:#fff">
+<div class="mx">
+<p class="lab lab-w">Inteligência de mercado — atualizado março 2026</p>
+<h2 style="color:#fff">O mercado brasileiro de joias e semijoias em números</h2>
+<p class="sub sub-w">Dados consolidados de Mordor Intelligence, Bain &amp; Company, B3 (VIVA3), IBGM e associações setoriais. O setor cresce dois dígitos e a digitalização acelera.</p>
+
+<div class="g4" style="margin-top:32px">
+<div style="text-align:center;padding:28px 16px;background:rgba(255,255,255,.03);border-radius:var(--radius);border:1px solid rgba(201,169,110,.12)"><div style="font-size:30px;font-weight:800;color:var(--gold-light);font-family:'Playfair Display',serif">R$ 74B</div><div style="font-size:9px;color:rgba(255,255,255,.35);margin-top:8px;text-transform:uppercase;letter-spacing:.12em">Faturamento setor 2022</div></div>
+<div style="text-align:center;padding:28px 16px;background:rgba(255,255,255,.03);border-radius:var(--radius);border:1px solid rgba(201,169,110,.12)"><div style="font-size:30px;font-weight:800;color:#86efac;font-family:'Playfair Display',serif">+8,3%</div><div style="font-size:9px;color:rgba(255,255,255,.35);margin-top:8px;text-transform:uppercase;letter-spacing:.12em">CAGR 2024-2029</div></div>
+<div style="text-align:center;padding:28px 16px;background:rgba(255,255,255,.03);border-radius:var(--radius);border:1px solid rgba(201,169,110,.12)"><div style="font-size:30px;font-weight:800;color:#fbbf24;font-family:'Playfair Display',serif">+15%</div><div style="font-size:9px;color:rgba(255,255,255,.35);margin-top:8px;text-transform:uppercase;letter-spacing:.12em">Crescimento semijoias 2025</div></div>
+<div style="text-align:center;padding:28px 16px;background:rgba(255,255,255,.03);border-radius:var(--radius);border:1px solid rgba(201,169,110,.12)"><div style="font-size:30px;font-weight:800;color:var(--gold-light);font-family:'Playfair Display',serif">2x</div><div style="font-size:9px;color:rgba(255,255,255,.35);margin-top:8px;text-transform:uppercase;letter-spacing:.12em">Projeção até 2030</div></div>
+</div>
+
+<div class="g2" style="margin-top:32px">
+<div style="background:rgba(255,255,255,.04);border:1px solid rgba(201,169,110,.12);border-radius:var(--radius);padding:24px">
+<h3 style="color:var(--gold-light);font-size:16px">Vivara (VIVA3) — Resultados 2025</h3>
+<ul style="font-size:13px;color:rgba(255,255,255,.6);padding-left:18px;line-height:2.1">
+<li>Receita bruta: <strong style="color:#fff">R$ 3,8 bilhões</strong> (+16,2%)</li>
+<li>Lucro líquido: <strong style="color:#fff">R$ 619,5 milhões</strong> (+22,6%)</li>
+<li>Vendas digitais: <strong style="color:#86efac">+31,5%</strong></li>
+<li>Same Store Sales 4T25: <strong style="color:#fff">+11,5%</strong></li>
+<li>Guidance 2026: <strong style="color:#fbbf24">55-65 novas lojas</strong>, aceleração de 35%+ vs 2025</li>
+<li>Estratégia concentrada na marca <strong style="color:#fff">Life by Vivara</strong></li>
+<li>Possível aquisição da <strong style="color:#fff">H.Stern</strong> em negociação</li>
+</ul>
+</div>
+<div style="background:rgba(255,255,255,.04);border:1px solid rgba(201,169,110,.12);border-radius:var(--radius);padding:24px">
+<h3 style="color:var(--gold-light);font-size:16px">Tendências de produto 2026</h3>
+<ul style="font-size:13px;color:rgba(255,255,255,.6);padding-left:18px;line-height:2.1">
+<li><strong style="color:#fff">Mix de metais:</strong> dourado + prata + rosé na mesma composição</li>
+<li><strong style="color:#fff">Personalização:</strong> iniciais, signos, símbolos — aumentam valor percebido</li>
+<li><strong style="color:#fff">Design orgânico:</strong> formas assimétricas, peças com movimento</li>
+<li><strong style="color:#fff">Layering:</strong> empilhamento de colares, pulseiras e brincos</li>
+<li><strong style="color:#fff">Pedras coloridas:</strong> safira, esmeralda, quartzo, ágata em alta</li>
+<li><strong style="color:#fff">Sustentabilidade:</strong> materiais reciclados e transparência produtiva</li>
+<li><strong style="color:#fff">Luxo acessível:</strong> banho 18K + design autoral — posição exata da Herreira</li>
+</ul>
+</div>
+</div>
+
+<div style="background:rgba(255,255,255,.04);border:1px solid rgba(201,169,110,.12);border-radius:var(--radius);padding:24px;margin-top:20px">
+<h3 style="color:var(--gold-light);font-size:16px">Instagram e digital — o que muda em 2026</h3>
+<div class="g3" style="margin-top:12px">
+<div>
+<ul style="font-size:12px;color:rgba(255,255,255,.55);padding-left:16px;line-height:2">
+<li>Brasil: <strong style="color:#fff">134 milhões</strong> de contas ativas (3o mundial)</li>
+<li>90% dos usuários seguem pelo menos uma marca</li>
+<li>50%+ usam para pesquisar produtos</li>
+</ul>
+</div>
+<div>
+<ul style="font-size:12px;color:rgba(255,255,255,.55);padding-left:16px;line-height:2">
+<li><strong style="color:#fff">Reels:</strong> melhor para alcance e captação</li>
+<li><strong style="color:#fff">DMs:</strong> nova métrica prioritária do algoritmo</li>
+<li><strong style="color:#fff">Hashtags:</strong> máximo 3-5 (só categorização)</li>
+</ul>
+</div>
+<div>
+<ul style="font-size:12px;color:rgba(255,255,255,.55);padding-left:16px;line-height:2">
+<li>Vendas online no setor: de 30% para <strong style="color:#86efac">50%</strong> em 2025</li>
+<li>Influenciadores geraram <strong style="color:#86efac">+40% em vendas</strong> em 3 meses</li>
+<li>Social commerce consolida como canal direto</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- MAPA DE CONCORRENTES ATUALIZADO -->
+<div class="sec sec-alt" id="concorrentes-atualizado">
+<div class="mx">
+<p class="lab">Inteligência competitiva — março 2026</p>
+<h2>Mapa de concorrentes: receita, Instagram e posição</h2>
+<p class="sub">Dados financeiros públicos e audiência digital coletados por navegação real em março de 2026.</p>
+
+<div style="overflow-x:auto">
+<table class="cmp-table">
+<thead><tr><th>Marca</th><th>Receita 2025</th><th>Instagram</th><th>Lojas</th><th>Modelo</th><th>Posição vs Herreira</th></tr></thead>
+<tbody>
+<tr><td><strong>Vivara</strong></td><td class="ck">R$ 3,8B</td><td>3M + Life 2M</td><td>400+</td><td>Varejo + e-commerce (B3)</td><td>314x maior em receita</td></tr>
+<tr><td><strong>Rommanel</strong></td><td>N/D (cap. fechado)</td><td class="ck">4M</td><td>Via revendedoras</td><td>Venda direta</td><td>6,7x mais seguidores</td></tr>
+<tr><td><strong>Morana</strong></td><td>R$ 405M (+16%)</td><td>1M</td><td>331 (franquia)</td><td>Franquia</td><td>19x maior em receita</td></tr>
+<tr><td><strong>H.Stern</strong></td><td>N/D (~R$ 400M est.)</td><td>470K</td><td>160+ (14 países)</td><td>Varejo premium</td><td>Herreira tem +26% mais seguidores</td></tr>
+<tr><td><strong>Monte Carlo</strong></td><td>N/D (FIDC R$ 130M)</td><td>370K</td><td>50+</td><td>Varejo próprio</td><td>Herreira tem +60% mais seguidores</td></tr>
+<tr><td><strong>Pandora Brasil</strong></td><td>DKK 32,5B global</td><td>56K Brasil</td><td>100+ Brasil</td><td>Franquia global</td><td>Herreira tem 10x mais seguidores</td></tr>
+<tr style="background:var(--gold-light)"><td><strong>Herreira</strong></td><td><strong>R$ 12,1M (+26,8%)</strong></td><td><strong>594K</strong></td><td><strong>3 (Goiânia)</strong></td><td><strong>D2C + revendedoras</strong></td><td><strong>Crescimento mais rápido</strong></td></tr>
+</tbody>
+</table>
+</div>
+
+<div style="background:var(--gold-light);padding:20px;border-radius:var(--radius);margin-top:24px;border-left:3px solid var(--gold)">
+<h3 style="font-size:16px">Insight competitivo chave</h3>
+<p style="font-size:14px;color:var(--muted)">A Herreira (594K) já supera Monte Carlo (370K) e H.Stern (470K) no Instagram — marcas com décadas de mercado e centenas de lojas. Nenhum concorrente de grande porte usa estratégia de <em>founder-led brand</em> com CEO visível no digital. Esse é o maior vetor de diferenciação de Paty Caramaschi.</p>
+</div>
+</div>
+</div>
+
+<!-- CALENDÁRIO ESTRATÉGICO 2026 -->
+<div class="sec" id="calendario">
+<div class="mx">
+<p class="lab">Planejamento anual</p>
+<h2>Calendário estratégico 2026 — empresa + Paty Caramaschi</h2>
+<p class="sub">Roadmap trimestral integrando ações de marca, personal branding, feiras do setor e datas comerciais. Cada trimestre com metas mensuráveis.</p>
+
+<div class="g2">
+
+<!-- Q1 -->
+<div class="card" style="border-left:3px solid #2563eb">
+<h3 style="font-size:16px;color:#2563eb">Q1 (Jan-Mar) — Fundação</h3>
+<h4 style="font-size:13px;margin-top:12px;color:var(--text)">Empresa</h4>
+<ul style="font-size:12px;color:var(--muted);padding-left:16px;line-height:2">
+<li>Lançar Coleção Alvor (fev) + campanha de lançamento com live</li>
+<li>Corrigir UX do site: title tag, "Quem Somos", links mortos, "A partir"</li>
+<li>Implementar parcelamento 10x e cupom de primeira compra</li>
+<li>Participar da Feira Bijoias (17-18 mar, SP)</li>
+<li>Iniciar presença em marketplace (Mercado Livre)</li>
+</ul>
+<h4 style="font-size:13px;margin-top:12px;color:var(--text)">Paty Caramaschi</h4>
+<ul style="font-size:12px;color:var(--muted);padding-left:16px;line-height:2">
+<li>Setup LinkedIn: 3 posts/semana + primeiro artigo longo</li>
+<li>Contratar videomaker + 2 vídeos piloto YouTube</li>
+<li>Definir 4 pilares de conteúdo Instagram + grid planejado</li>
+<li>Contratar assessoria de imprensa + media kit pessoal</li>
+</ul>
+<div class="kpi-row" style="margin-top:8px"><span class="kpi">Meta IG: 380K</span><span class="kpi">Meta LI: 15K</span></div>
+</div>
+
+<!-- Q2 -->
+<div class="card" style="border-left:3px solid #059669">
+<h3 style="font-size:16px;color:#059669">Q2 (Abr-Jun) — Aceleração</h3>
+<h4 style="font-size:13px;margin-top:12px;color:var(--text)">Empresa</h4>
+<ul style="font-size:12px;color:var(--muted);padding-left:16px;line-height:2">
+<li>Lançar coleção Dia das Mães (mai) — maior data comercial do setor</li>
+<li>Implementar programa de fidelidade digital (cashback/pontos)</li>
+<li>Migrar blog para /blog (subdiretório para SEO)</li>
+<li>Lançar filtro de preço e busca com autocomplete no PLP</li>
+<li>Dia dos Namorados (jun): campanha de combos + embalagem especial</li>
+</ul>
+<h4 style="font-size:13px;margin-top:12px;color:var(--text)">Paty Caramaschi</h4>
+<ul style="font-size:12px;color:var(--muted);padding-left:16px;line-height:2">
+<li>YouTube semanal: série "Bastidores Herreira" + 3 Shorts/sem</li>
+<li>Primeira collab no Instagram com outra CEO</li>
+<li>4 matérias publicadas (PEGN, Exame, Empreender GO, Vogue)</li>
+<li>Primeira palestra regional (SEBRAE GO ou FIEG)</li>
+</ul>
+<div class="kpi-row" style="margin-top:8px"><span class="kpi">Meta IG: 430K</span><span class="kpi">Meta LI: 25K</span><span class="kpi">YT: 5K inscritos</span></div>
+</div>
+
+<!-- Q3 -->
+<div class="card" style="border-left:3px solid #c2410c">
+<h3 style="font-size:16px;color:#c2410c">Q3 (Jul-Set) — Expansão</h3>
+<h4 style="font-size:13px;margin-top:12px;color:var(--text)">Empresa</h4>
+<ul style="font-size:12px;color:var(--muted);padding-left:16px;line-height:2">
+<li>FENINJER+ (17-20 ago, SP): stand Herreira + networking com compradores</li>
+<li>Lançar linha Prata 925 (ponte semijoias-joias, modelo Jolie/Life)</li>
+<li>Dia dos Pais (ago): lançar ou expandir linha masculina</li>
+<li>Feira Bijoias 2a edição (set): presença confirmada</li>
+<li>Avaliar modelo de quiosque/franquia em shopping de Goiânia</li>
+</ul>
+<h4 style="font-size:13px;margin-top:12px;color:var(--text)">Paty Caramaschi</h4>
+<ul style="font-size:12px;color:var(--muted);padding-left:16px;line-height:2">
+<li>Palestra na FENINJER+ ou evento nacional (RD Summit, Gramado)</li>
+<li>10 matérias acumuladas + 1a matéria Tier 1 (Forbes/Exame)</li>
+<li>Série "CEO Responde" no YouTube (mensal, 15-20 min)</li>
+<li>Press trip: convidar 10 jornalistas à fábrica em Goiânia</li>
+</ul>
+<div class="kpi-row" style="margin-top:8px"><span class="kpi">Meta IG: 500K</span><span class="kpi">Meta LI: 35K</span><span class="kpi">YT: 15K inscritos</span></div>
+</div>
+
+<!-- Q4 -->
+<div class="card" style="border-left:3px solid #7c3aed">
+<h3 style="font-size:16px;color:#7c3aed">Q4 (Out-Dez) — Colheita</h3>
+<h4 style="font-size:13px;margin-top:12px;color:var(--text)">Empresa</h4>
+<ul style="font-size:12px;color:var(--muted);padding-left:16px;line-height:2">
+<li>Black Friday (nov): maior operação de vendas do ano</li>
+<li>Natal (dez): coleção especial + kits presente + embalagem premium</li>
+<li>Consolidar presença em marketplaces (ML + Amazon + Shopee)</li>
+<li>Fechar ano com meta de R$ 15M+ receita Herreira</li>
+<li>Planejamento 2027: avaliar migração VTEX IO ou Shopify Plus</li>
+</ul>
+<h4 style="font-size:13px;margin-top:12px;color:var(--text)">Paty Caramaschi</h4>
+<ul style="font-size:12px;color:var(--muted);padding-left:16px;line-height:2">
+<li>Lançar "Escola Paty Caramaschi" — curso online para revendedoras</li>
+<li>Meta: 500 alunas no primeiro lançamento (R$ 150-250K)</li>
+<li>20+ matérias na imprensa acumuladas no ano</li>
+<li>Knowledge Panel Google ativo</li>
+<li>Iniciar ghostwriting do livro "A Joia que Sou"</li>
+</ul>
+<div class="kpi-row" style="margin-top:8px"><span class="kpi">Meta IG: 600K</span><span class="kpi">Meta LI: 50K</span><span class="kpi">YT: 25K inscritos</span></div>
+</div>
+</div>
+
+<!-- DATAS COMERCIAIS -->
+<h3 style="margin-top:32px">Datas comerciais e feiras do setor — 2026</h3>
+<div style="overflow-x:auto;margin-top:12px">
+<table class="cmp-table">
+<thead><tr><th>Data</th><th>Evento / Data Comercial</th><th>Ação Herreira</th><th>Prioridade</th></tr></thead>
+<tbody>
+<tr><td>14 Fev</td><td>Valentine's Day (EUA / herreirajewelry.com)</td><td>Campanha internacional</td><td><span class="tag t-medio">Média</span></td></tr>
+<tr><td>8 Mar</td><td>Dia Internacional da Mulher</td><td>Campanha de empoderamento + coleção temática</td><td><span class="tag t-alto">Alta</span></td></tr>
+<tr><td>17-18 Mar</td><td>Feira Bijoias (SP)</td><td>Visitar / expor / networking</td><td><span class="tag t-alto">Alta</span></td></tr>
+<tr><td>11 Mai</td><td>Dia das Mães</td><td>Maior campanha do ano: combos, presentes, embalagem</td><td><span class="tag t-urgente">Urgente</span></td></tr>
+<tr><td>12 Jun</td><td>Dia dos Namorados</td><td>Combos casal, alianças, kits</td><td><span class="tag t-urgente">Urgente</span></td></tr>
+<tr><td>10 Ago</td><td>Dia dos Pais</td><td>Linha masculina + acessórios</td><td><span class="tag t-alto">Alta</span></td></tr>
+<tr><td>17-20 Ago</td><td>FENINJER+ (SP)</td><td>Stand + palestra Paty + lançamento prata</td><td><span class="tag t-urgente">Urgente</span></td></tr>
+<tr><td>Set</td><td>Feira Bijoias 2a edição</td><td>Presença confirmada</td><td><span class="tag t-medio">Média</span></td></tr>
+<tr><td>24-26 Set</td><td>Ajorsul (RS)</td><td>Avaliar presença</td><td><span class="tag t-medio">Média</span></td></tr>
+<tr><td>28 Nov</td><td>Black Friday</td><td>Maior operação de vendas + outlet</td><td><span class="tag t-urgente">Urgente</span></td></tr>
+<tr><td>25 Dez</td><td>Natal</td><td>Coleção especial + kits + embalagem premium</td><td><span class="tag t-urgente">Urgente</span></td></tr>
+</tbody>
+</table>
+</div>
 </div>
 </div>
 
