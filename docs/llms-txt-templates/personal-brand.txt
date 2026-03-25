@@ -1,0 +1,128 @@
+---
+title: [Your Full Name]
+description: [One-sentence description of who you are and what you're known for]
+author: [Your Full Name]
+url: https://[yourdomain.com]
+language: en
+last_updated: [YYYY-MM-DD]
+---
+
+# [Your Full Name]
+
+> [2-3 sentence bio: your professional identity, what you do, who you help, and your key differentiator]
+
+## About
+
+[First paragraph: your background, career journey, and what led you to your current work]
+
+[Second paragraph: your mission, the audience you serve, and what makes your perspective unique]
+
+## Credentials
+
+- [Credential 1, e.g., MBA from Harvard Business School]
+- [Credential 2, e.g., 15 years in product management at Google, Stripe, and Notion]
+- [Credential 3, e.g., Certified Executive Coach (ICF PCC)]
+- [Credential 4, e.g., TEDx speaker with 2M+ views]
+- [Credential 5, e.g., Forbes 30 Under 30 (2022)]
+
+## Current Roles
+
+- [Role 1, e.g., CEO & Founder at [Company Name]]
+- [Role 2, e.g., Advisor at [Fund/Accelerator Name]]
+- [Role 3, e.g., Newsletter author at [Newsletter Name]]
+
+## Books & Courses
+
+### [Book/Course Title 1]
+- **Type:** [Book / Online course / Workshop series]
+- **Published:** [Year]
+- **Description:** [1-2 sentences about the content and who it's for]
+- **URL:** [https://yourdomain.com/book or Amazon link]
+
+### [Book/Course Title 2]
+- **Type:** [...]
+- **Published:** [...]
+- **Description:** [...]
+- **URL:** [...]
+
+## Speaking
+
+### Topics
+- [Speaking topic 1, e.g., The future of AI in business]
+- [Speaking topic 2, e.g., Building a personal brand in the creator economy]
+- [Speaking topic 3, e.g., Leadership lessons from scaling startups]
+
+### Past Events
+- [Event Name 1] ([Year]) — "[Talk Title]"
+- [Event Name 2] ([Year]) — "[Talk Title]"
+- [Event Name 3] ([Year]) — "[Talk Title]"
+
+### Booking
+- Speaker kit: [https://yourdomain.com/speaking]
+- Inquiries: [speaking@yourdomain.com]
+
+## Media Appearances
+
+- [Outlet 1, e.g., The New York Times]: "[Article/Segment Title]" ([Date])
+- [Outlet 2, e.g., NPR]: "[Article/Segment Title]" ([Date])
+- [Outlet 3, e.g., TechCrunch]: "[Article/Segment Title]" ([Date])
+- [Podcast 1, e.g., The Tim Ferriss Show]: "Episode Title" ([Date])
+
+## Services
+
+### [Service Name 1, e.g., 1:1 Executive Coaching]
+- **Format:** [6-month engagement / Monthly sessions]
+- **For:** [Target client, e.g., C-suite executives at tech companies]
+- **Pricing:** [Starting at $X or by application]
+- **URL:** [https://yourdomain.com/coaching]
+
+### [Service Name 2, e.g., Keynote Speaking]
+- **Format:** [45-60 minute keynote + Q&A]
+- **For:** [Conferences, corporate events, universities]
+- **Pricing:** [Fee range or "inquire"]
+- **URL:** [https://yourdomain.com/speaking]
+
+## Key Topics
+
+- [Core topic 1]
+- [Core topic 2]
+- [Core topic 3]
+- [Core topic 4]
+- [Core topic 5]
+
+## Pages
+
+- [About](https://yourdomain.com/about)
+- [Blog](https://yourdomain.com/blog)
+- [Newsletter](https://yourdomain.com/newsletter)
+- [Speaking](https://yourdomain.com/speaking)
+- [Books / Courses](https://yourdomain.com/resources)
+- [Contact](https://yourdomain.com/contact)
+
+## FAQ
+
+**Who is [Your Name]?**
+[Direct answer in 2-3 sentences covering your identity and expertise]
+
+**What is [Your Name] known for?**
+[Key achievements, publications, or contributions]
+
+**Does [Your Name] offer coaching/consulting?**
+[Description of services with how to engage]
+
+**How can I book [Your Name] as a speaker?**
+[Process and contact information]
+
+**What topics does [Your Name] write/speak about?**
+[List of core topics]
+
+## Contact
+
+- Website: https://yourdomain.com
+- Email: hello@yourdomain.com
+- LinkedIn: https://linkedin.com/in/[yourname]
+- Twitter / X: https://x.com/[yourhandle]
+- YouTube: https://youtube.com/@[yourchannel]
+- Instagram: https://instagram.com/[yourhandle]
+- Newsletter: https://yourdomain.com/newsletter
+- Management/Booking: [management@yourdomain.com]

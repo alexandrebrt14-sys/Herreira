@@ -1,0 +1,448 @@
+{
+  "taxonomy": {
+    "title": "GEO Taxonomy — A Structured Vocabulary for Generative Engine Optimization",
+    "version": "1.0.0",
+    "date": "2026-03-20",
+    "author": "Alexandre Caramaschi",
+    "license": "CC-BY-4.0",
+    "url": "https://github.com/alexandrebrt14-sys/geo-taxonomy",
+    "categories": [
+      "Core GEO Concepts",
+      "Entity & Identity",
+      "Technical Infrastructure",
+      "Content & Citability",
+      "Measurement & Auditing",
+      "Business-to-Agent",
+      "AI Engines & Platforms"
+    ],
+    "terms": [
+      {
+        "id": "generative-engine-optimization",
+        "term": "Generative Engine Optimization (GEO)",
+        "category": "Core GEO Concepts",
+        "definition": "The practice of optimizing digital content, entities, and structured data so that AI-powered generative engines (such as ChatGPT, Gemini, Perplexity, and Claude) can accurately discover, interpret, and cite the information in their responses.",
+        "related_terms": ["algorithmic-visibility", "citability", "zero-click-economy", "content-citability"]
+      },
+      {
+        "id": "algorithmic-visibility",
+        "term": "Algorithmic Visibility",
+        "category": "Core GEO Concepts",
+        "definition": "The degree to which a brand, person, or entity is surfaced and referenced by AI-driven search engines and generative models. Unlike traditional SEO visibility, algorithmic visibility depends on structured data quality, entity authority, and content citability.",
+        "related_terms": ["generative-engine-optimization", "share-of-voice-ai", "visibility-audit"]
+      },
+      {
+        "id": "citability",
+        "term": "Citability",
+        "category": "Core GEO Concepts",
+        "definition": "The quality that makes a piece of content likely to be selected as a source or reference by a generative AI engine. Citability is driven by clarity, authority, structured formatting, and factual precision.",
+        "related_terms": ["content-citability", "citation-accuracy", "author-attribution"]
+      },
+      {
+        "id": "entity-drift",
+        "term": "Entity Drift",
+        "category": "Core GEO Concepts",
+        "definition": "The gradual divergence between how a real-world entity (person, brand, concept) is represented in AI knowledge bases versus its actual current state. Entity drift can result in outdated or inaccurate AI-generated descriptions.",
+        "related_terms": ["entity-authority", "knowledge-graph", "wikidata-entry"]
+      },
+      {
+        "id": "zero-click-economy",
+        "term": "Zero-Click Economy",
+        "category": "Core GEO Concepts",
+        "definition": "An information economy where users receive complete answers directly from AI engines or search features without clicking through to the original source. This shifts value from traffic-based metrics to citation-based authority.",
+        "related_terms": ["generative-engine-optimization", "citability", "share-of-voice-ai"]
+      },
+      {
+        "id": "ai-overview",
+        "term": "AI Overview",
+        "category": "Core GEO Concepts",
+        "definition": "A summarized, AI-generated answer displayed at the top of a search results page, synthesizing information from multiple sources. Google's AI Overviews are a prominent example of this pattern.",
+        "related_terms": ["generative-engine-optimization", "zero-click-economy", "rag"]
+      },
+      {
+        "id": "geo-strategy",
+        "term": "GEO Strategy",
+        "category": "Core GEO Concepts",
+        "definition": "A comprehensive plan that combines entity optimization, structured data implementation, content citability improvements, and technical infrastructure to maximize an entity's presence in AI-generated responses.",
+        "related_terms": ["generative-engine-optimization", "algorithmic-visibility", "visibility-audit"]
+      },
+      {
+        "id": "generative-search",
+        "term": "Generative Search",
+        "category": "Core GEO Concepts",
+        "definition": "A search paradigm where AI models generate synthesized, conversational answers by drawing from multiple sources, rather than returning a list of ranked links. Examples include Perplexity, Google AI Overviews, and Bing Copilot.",
+        "related_terms": ["ai-overview", "zero-click-economy", "rag"]
+      },
+      {
+        "id": "schema-org",
+        "term": "Schema.org",
+        "category": "Entity & Identity",
+        "definition": "A collaborative vocabulary of structured data markup schemas maintained by Google, Microsoft, Yahoo, and Yandex. Schema.org types and properties are foundational to how AI engines parse and understand web content.",
+        "related_terms": ["json-ld", "structured-data", "faq-page-schema"]
+      },
+      {
+        "id": "json-ld",
+        "term": "JSON-LD",
+        "category": "Entity & Identity",
+        "definition": "JavaScript Object Notation for Linked Data, the preferred format for embedding structured data in web pages. JSON-LD scripts allow AI crawlers and search engines to parse entity relationships, authorship, and content types.",
+        "related_terms": ["schema-org", "structured-data", "same-as"]
+      },
+      {
+        "id": "same-as",
+        "term": "sameAs",
+        "category": "Entity & Identity",
+        "definition": "A Schema.org property that links an entity to its equivalent representations on other platforms (e.g., Wikipedia, LinkedIn, Wikidata). The sameAs property helps AI engines confirm entity identity across the web.",
+        "related_terms": ["schema-org", "json-ld", "wikidata-entry", "entity-reconciliation"]
+      },
+      {
+        "id": "knows-about",
+        "term": "knowsAbout",
+        "category": "Entity & Identity",
+        "definition": "A Schema.org property used on Person or Organization markup to declare the topics and domains of expertise associated with an entity. It helps AI engines associate an author or brand with specific subject areas.",
+        "related_terms": ["schema-org", "json-ld", "author-attribution", "entity-authority"]
+      },
+      {
+        "id": "wikidata-entry",
+        "term": "Wikidata Entry",
+        "category": "Entity & Identity",
+        "definition": "A structured data record in the Wikidata knowledge base, identified by a unique Q-identifier. Wikidata entries serve as a canonical identity anchor used by AI engines to resolve entity references.",
+        "related_terms": ["same-as", "knowledge-graph", "entity-reconciliation"]
+      },
+      {
+        "id": "entity-authority",
+        "term": "Entity Authority",
+        "category": "Entity & Identity",
+        "definition": "The perceived credibility and trustworthiness of an entity within AI knowledge systems. Entity authority is built through consistent structured data, reputable citations, and corroboration across multiple reliable sources.",
+        "related_terms": ["entity-drift", "wikidata-entry", "algorithmic-visibility"]
+      },
+      {
+        "id": "knowledge-graph",
+        "term": "Knowledge Graph",
+        "category": "Entity & Identity",
+        "definition": "A structured database of entities and their relationships used by search engines and AI systems to understand real-world connections. Google's Knowledge Graph is the most widely known example.",
+        "related_terms": ["wikidata-entry", "entity-authority", "entity-reconciliation"]
+      },
+      {
+        "id": "entity-reconciliation",
+        "term": "Entity Reconciliation",
+        "category": "Entity & Identity",
+        "definition": "The process by which AI systems match and merge references to the same real-world entity across different data sources. Proper use of sameAs, Wikidata IDs, and consistent naming improves reconciliation accuracy.",
+        "related_terms": ["same-as", "wikidata-entry", "knowledge-graph", "entity-drift"]
+      },
+      {
+        "id": "entity-disambiguation",
+        "term": "Entity Disambiguation",
+        "category": "Entity & Identity",
+        "definition": "The process of distinguishing between entities that share the same or similar names. Structured data and contextual signals help AI engines correctly identify which entity is being referenced.",
+        "related_terms": ["entity-reconciliation", "knowledge-graph", "same-as"]
+      },
+      {
+        "id": "llms-txt",
+        "term": "llms.txt",
+        "category": "Technical Infrastructure",
+        "definition": "A proposed standard file (similar to robots.txt) placed at the root of a website to provide AI language models with structured metadata, permissions, and context about the site's content and preferred citation format.",
+        "related_terms": ["structured-data", "generative-engine-optimization", "ai-crawlability"]
+      },
+      {
+        "id": "faq-page-schema",
+        "term": "FAQPage Schema",
+        "category": "Technical Infrastructure",
+        "definition": "A Schema.org type used to mark up frequently asked questions and their answers on a web page. FAQPage schema increases the likelihood that AI engines will extract and cite specific Q&A pairs.",
+        "related_terms": ["schema-org", "json-ld", "structured-data"]
+      },
+      {
+        "id": "structured-data",
+        "term": "Structured Data",
+        "category": "Technical Infrastructure",
+        "definition": "Machine-readable data embedded in web pages using standardized formats (JSON-LD, Microdata, RDFa) that describes entities, content types, and relationships. Structured data is a foundational element of GEO.",
+        "related_terms": ["schema-org", "json-ld", "semantic-html"]
+      },
+      {
+        "id": "semantic-html",
+        "term": "Semantic HTML",
+        "category": "Technical Infrastructure",
+        "definition": "The use of HTML elements that convey meaning about the content they contain (e.g., article, section, nav, header). Semantic HTML helps AI parsers understand document structure and content hierarchy.",
+        "related_terms": ["structured-data", "content-citability", "ai-crawlability"]
+      },
+      {
+        "id": "ai-crawlability",
+        "term": "AI Crawlability",
+        "category": "Technical Infrastructure",
+        "definition": "The ease with which AI systems and their web crawlers can access, parse, and index a website's content. Factors include server-side rendering, structured data presence, and permissions declared in robots.txt and llms.txt.",
+        "related_terms": ["llms-txt", "structured-data", "semantic-html"]
+      },
+      {
+        "id": "robots-txt-ai",
+        "term": "Robots.txt (AI Directives)",
+        "category": "Technical Infrastructure",
+        "definition": "Extensions or specific user-agent rules within a robots.txt file that control how AI crawlers (such as GPTBot, Google-Extended, ClaudeBot) access and index site content.",
+        "related_terms": ["llms-txt", "ai-crawlability"]
+      },
+      {
+        "id": "server-side-rendering",
+        "term": "Server-Side Rendering (SSR)",
+        "category": "Technical Infrastructure",
+        "definition": "A technique where web pages are rendered on the server before being sent to the client, ensuring that AI crawlers and generative engines can fully access content without executing JavaScript.",
+        "related_terms": ["ai-crawlability", "semantic-html"]
+      },
+      {
+        "id": "knowledge-panel-optimization",
+        "term": "Knowledge Panel Optimization",
+        "category": "Technical Infrastructure",
+        "definition": "The process of claiming, verifying, and enriching a Google Knowledge Panel to ensure accurate and complete entity information is available for AI engines that reference Google's knowledge base.",
+        "related_terms": ["knowledge-graph", "entity-authority", "schema-org"]
+      },
+      {
+        "id": "content-citability",
+        "term": "Content Citability",
+        "category": "Content & Citability",
+        "definition": "The degree to which a specific piece of content is structured, authoritative, and clear enough to be selected as a citation source by generative AI engines. High content citability requires factual precision, clear definitions, and proper attribution.",
+        "related_terms": ["citability", "definition-page", "named-framework"]
+      },
+      {
+        "id": "definition-page",
+        "term": "Definition Page",
+        "category": "Content & Citability",
+        "definition": "A dedicated web page that provides a clear, authoritative definition of a specific term or concept. Definition pages are highly citable by AI engines because they offer concise, structured answers to definitional queries.",
+        "related_terms": ["content-citability", "citability", "faq-page-schema"]
+      },
+      {
+        "id": "named-framework",
+        "term": "Named Framework",
+        "category": "Content & Citability",
+        "definition": "A proprietary methodology, model, or system given a distinctive name and associated with a specific author or brand. Named frameworks increase citability because AI engines can reference them as unique, attributable concepts.",
+        "related_terms": ["content-citability", "author-attribution", "entity-authority"]
+      },
+      {
+        "id": "author-attribution",
+        "term": "Author Attribution",
+        "category": "Content & Citability",
+        "definition": "The practice of clearly identifying the author of content through bylines, structured data markup, and linked author profiles. Strong author attribution signals help AI engines associate content with authoritative entities.",
+        "related_terms": ["knows-about", "entity-authority", "content-citability"]
+      },
+      {
+        "id": "topical-authority",
+        "term": "Topical Authority",
+        "category": "Content & Citability",
+        "definition": "The recognition by AI and search systems that a website or author is a leading, comprehensive source on a specific subject area. Topical authority is built through depth and breadth of high-quality content on a topic.",
+        "related_terms": ["entity-authority", "content-citability", "knows-about"]
+      },
+      {
+        "id": "citable-snippet",
+        "term": "Citable Snippet",
+        "category": "Content & Citability",
+        "definition": "A concise, self-contained passage of text (typically 1-3 sentences) that is structured to be easily extracted and quoted by AI engines. Citable snippets often begin with a clear definition or declarative statement.",
+        "related_terms": ["content-citability", "definition-page", "citability"]
+      },
+      {
+        "id": "content-freshness",
+        "term": "Content Freshness",
+        "category": "Content & Citability",
+        "definition": "The recency and up-to-date quality of content, which affects whether AI engines select it as a citation source. Regularly updated content with visible timestamps signals relevance to generative models.",
+        "related_terms": ["content-citability", "entity-drift", "visibility-audit"]
+      },
+      {
+        "id": "multi-format-content",
+        "term": "Multi-Format Content",
+        "category": "Content & Citability",
+        "definition": "The practice of publishing the same core information in multiple formats (text, video, audio, infographic, structured data) to maximize discoverability and citability across different AI engines and platforms.",
+        "related_terms": ["content-citability", "generative-engine-optimization"]
+      },
+      {
+        "id": "share-of-voice-ai",
+        "term": "Share of Voice (AI)",
+        "category": "Measurement & Auditing",
+        "definition": "A metric that measures how frequently a brand or entity is mentioned, cited, or recommended in AI-generated responses compared to competitors. It is the GEO equivalent of traditional search share of voice.",
+        "related_terms": ["algorithmic-visibility", "visibility-audit", "prompt-bank"]
+      },
+      {
+        "id": "prompt-bank",
+        "term": "Prompt Bank",
+        "category": "Measurement & Auditing",
+        "definition": "A curated collection of standardized prompts used to systematically test how AI engines respond to queries about a specific brand, entity, or topic. Prompt banks enable repeatable GEO auditing.",
+        "related_terms": ["share-of-voice-ai", "visibility-audit", "citation-accuracy"]
+      },
+      {
+        "id": "visibility-audit",
+        "term": "Visibility Audit",
+        "category": "Measurement & Auditing",
+        "definition": "A systematic evaluation of how an entity appears across multiple AI engines and generative search platforms. A visibility audit identifies gaps in algorithmic presence, entity accuracy, and citation frequency.",
+        "related_terms": ["share-of-voice-ai", "prompt-bank", "algorithmic-visibility"]
+      },
+      {
+        "id": "citation-accuracy",
+        "term": "Citation Accuracy",
+        "category": "Measurement & Auditing",
+        "definition": "The degree to which AI-generated citations correctly reflect the source material, including proper attribution, factual fidelity, and link accuracy. Monitoring citation accuracy is essential for GEO auditing.",
+        "related_terms": ["citability", "visibility-audit", "prompt-bank"]
+      },
+      {
+        "id": "sentiment-analysis-ai",
+        "term": "Sentiment Analysis (AI Responses)",
+        "category": "Measurement & Auditing",
+        "definition": "The evaluation of whether AI-generated responses about a brand or entity carry positive, neutral, or negative sentiment. Tracking sentiment across AI engines is a key GEO measurement practice.",
+        "related_terms": ["share-of-voice-ai", "visibility-audit", "entity-drift"]
+      },
+      {
+        "id": "hallucination-rate",
+        "term": "Hallucination Rate",
+        "category": "Measurement & Auditing",
+        "definition": "The frequency at which AI engines generate factually incorrect or fabricated information about an entity. A high hallucination rate for a brand indicates poor entity anchoring in AI knowledge bases.",
+        "related_terms": ["entity-drift", "citation-accuracy", "entity-authority"]
+      },
+      {
+        "id": "competitor-benchmarking-ai",
+        "term": "Competitor Benchmarking (AI)",
+        "category": "Measurement & Auditing",
+        "definition": "The practice of comparing an entity's AI visibility, citation frequency, and response quality against competitors across generative engines. It informs GEO strategy prioritization.",
+        "related_terms": ["share-of-voice-ai", "visibility-audit", "prompt-bank"]
+      },
+      {
+        "id": "business-to-agent",
+        "term": "Business-to-Agent (B2A)",
+        "category": "Business-to-Agent",
+        "definition": "A commerce and communication paradigm where businesses optimize their offerings to be discovered, evaluated, and recommended by autonomous AI agents acting on behalf of human users.",
+        "related_terms": ["agentic-commerce", "algorithmic-eligibility", "agent-triaging"]
+      },
+      {
+        "id": "agentic-commerce",
+        "term": "Agentic Commerce",
+        "category": "Business-to-Agent",
+        "definition": "A model of online commerce where AI agents autonomously research, compare, and purchase products or services on behalf of users. Businesses must ensure structured, machine-readable product data to participate.",
+        "related_terms": ["business-to-agent", "algorithmic-eligibility", "agent-triaging"]
+      },
+      {
+        "id": "algorithmic-eligibility",
+        "term": "Algorithmic Eligibility",
+        "category": "Business-to-Agent",
+        "definition": "The set of conditions a business or product must meet to be considered and recommended by AI agents during automated decision-making processes. Eligibility depends on structured data completeness, entity authority, and content citability.",
+        "related_terms": ["business-to-agent", "agentic-commerce", "structured-data"]
+      },
+      {
+        "id": "agent-triaging",
+        "term": "Agent Triaging",
+        "category": "Business-to-Agent",
+        "definition": "The process by which an AI agent evaluates, ranks, and filters options (products, services, providers) before presenting a shortlist to the user. Agent triaging relies on structured data, reviews, and entity authority signals.",
+        "related_terms": ["business-to-agent", "agentic-commerce", "algorithmic-eligibility"]
+      },
+      {
+        "id": "agent-readable-content",
+        "term": "Agent-Readable Content",
+        "category": "Business-to-Agent",
+        "definition": "Content specifically structured and formatted to be easily parsed and acted upon by autonomous AI agents. This includes machine-readable pricing, specifications, availability, and policies.",
+        "related_terms": ["business-to-agent", "structured-data", "agentic-commerce"]
+      },
+      {
+        "id": "agent-trust-signals",
+        "term": "Agent Trust Signals",
+        "category": "Business-to-Agent",
+        "definition": "Data points and indicators that AI agents use to assess the reliability and quality of a business or product, including verified reviews, certifications, structured warranties, and consistent entity data across platforms.",
+        "related_terms": ["agent-triaging", "algorithmic-eligibility", "entity-authority"]
+      },
+      {
+        "id": "chatgpt",
+        "term": "ChatGPT",
+        "category": "AI Engines & Platforms",
+        "definition": "An AI conversational engine developed by OpenAI, based on the GPT family of large language models. ChatGPT is one of the primary generative engines targeted by GEO strategies due to its large user base and web browsing capabilities.",
+        "related_terms": ["generative-engine-optimization", "rag", "generative-search"]
+      },
+      {
+        "id": "gemini",
+        "term": "Gemini",
+        "category": "AI Engines & Platforms",
+        "definition": "Google's family of multimodal AI models and the conversational AI assistant integrated into Google Search and Workspace products. Gemini's deep integration with Google's search index makes it a critical platform for GEO.",
+        "related_terms": ["generative-engine-optimization", "ai-overview", "generative-search"]
+      },
+      {
+        "id": "claude",
+        "term": "Claude",
+        "category": "AI Engines & Platforms",
+        "definition": "An AI assistant developed by Anthropic, known for its long-context capabilities and emphasis on safety. Claude is a growing generative engine that practitioners consider when developing multi-platform GEO strategies.",
+        "related_terms": ["generative-engine-optimization", "rag", "generative-search"]
+      },
+      {
+        "id": "perplexity",
+        "term": "Perplexity",
+        "category": "AI Engines & Platforms",
+        "definition": "An AI-powered answer engine that combines real-time web search with generative AI to provide cited, sourced answers. Perplexity is a key platform for GEO because it explicitly attributes and links to sources.",
+        "related_terms": ["generative-engine-optimization", "rag", "citability", "generative-search"]
+      },
+      {
+        "id": "rag",
+        "term": "Retrieval-Augmented Generation (RAG)",
+        "category": "AI Engines & Platforms",
+        "definition": "An AI architecture that combines information retrieval from external data sources with generative language model output. RAG enables AI engines to ground their responses in up-to-date, source-specific information.",
+        "related_terms": ["generative-search", "chatgpt", "perplexity", "citability"]
+      },
+      {
+        "id": "bing-copilot",
+        "term": "Bing Copilot",
+        "category": "AI Engines & Platforms",
+        "definition": "Microsoft's AI-powered search assistant integrated into Bing, combining traditional search indexing with generative AI responses. Bing Copilot uses RAG to provide sourced answers and is an important GEO target.",
+        "related_terms": ["generative-search", "rag", "generative-engine-optimization"]
+      },
+      {
+        "id": "searchgpt",
+        "term": "SearchGPT",
+        "category": "AI Engines & Platforms",
+        "definition": "OpenAI's search product that combines web retrieval with GPT-powered answer generation. SearchGPT represents the convergence of traditional search and generative AI.",
+        "related_terms": ["chatgpt", "rag", "generative-search"]
+      },
+      {
+        "id": "ai-agent-platform",
+        "term": "AI Agent Platform",
+        "category": "AI Engines & Platforms",
+        "definition": "A software platform that enables autonomous AI agents to perform tasks, make decisions, and interact with external services on behalf of users. Examples include OpenAI's agent frameworks and Google's agent ecosystem.",
+        "related_terms": ["business-to-agent", "agentic-commerce", "agent-triaging"]
+      },
+      {
+        "id": "grounding",
+        "term": "Grounding",
+        "category": "Core GEO Concepts",
+        "definition": "The process by which an AI model connects its generated output to verifiable, factual sources. Grounding reduces hallucination and increases the accuracy of AI-generated citations and references.",
+        "related_terms": ["rag", "citability", "hallucination-rate"]
+      },
+      {
+        "id": "digital-entity-footprint",
+        "term": "Digital Entity Footprint",
+        "category": "Entity & Identity",
+        "definition": "The totality of an entity's structured and unstructured presence across the web, including schema markup, social profiles, knowledge base entries, and content publications. A comprehensive footprint improves AI recognition.",
+        "related_terms": ["entity-authority", "same-as", "knowledge-graph"]
+      },
+      {
+        "id": "answer-engine-optimization",
+        "term": "Answer Engine Optimization (AEO)",
+        "category": "Core GEO Concepts",
+        "definition": "A precursor concept to GEO focused on optimizing content to appear in direct-answer features of search engines. AEO has evolved into the broader GEO discipline as AI engines have replaced simple answer boxes.",
+        "related_terms": ["generative-engine-optimization", "ai-overview", "zero-click-economy"]
+      },
+      {
+        "id": "prompt-alignment",
+        "term": "Prompt Alignment",
+        "category": "Content & Citability",
+        "definition": "The practice of structuring content to match the natural language patterns and question formats that users employ when querying AI engines. Prompt-aligned content is more likely to be retrieved and cited.",
+        "related_terms": ["content-citability", "prompt-bank", "generative-engine-optimization"]
+      },
+      {
+        "id": "source-authority-score",
+        "term": "Source Authority Score",
+        "category": "Measurement & Auditing",
+        "definition": "An inferred metric representing how much weight an AI engine assigns to a particular source when generating responses. Higher source authority leads to more frequent citation and recommendation.",
+        "related_terms": ["entity-authority", "citation-accuracy", "share-of-voice-ai"]
+      },
+      {
+        "id": "llm-seo",
+        "term": "LLM SEO",
+        "category": "Core GEO Concepts",
+        "definition": "An informal term for optimization practices specifically targeting large language models, as distinct from traditional search engine optimization. LLM SEO is largely synonymous with GEO.",
+        "related_terms": ["generative-engine-optimization", "algorithmic-visibility"]
+      },
+      {
+        "id": "brand-mention-tracking",
+        "term": "Brand Mention Tracking (AI)",
+        "category": "Measurement & Auditing",
+        "definition": "The systematic monitoring of how often and in what context a brand is mentioned in AI-generated responses across multiple generative engines. This is a core component of ongoing GEO measurement.",
+        "related_terms": ["share-of-voice-ai", "visibility-audit", "prompt-bank"]
+      }
+    ]
+  }
+}

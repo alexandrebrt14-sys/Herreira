@@ -1,27 +1,69 @@
-# Herreira Joias
+# Herreira Joias — Inteligencia Estrategica
 
-Repositório de inteligência estratégica para a Herreira Joias — marca brasileira de semijoias finas fundada por Patrícia Caramaschi em 2008 em Goiânia, GO.
+Repositorio de inteligencia estrategica completa para a **Herreira Joias**, marca brasileira de semijoias finas fundada por **Patricia Caramaschi** em 2008 em Goiania, GO. Grupo HAV (Herreira + Aulore + Vitesse): R$ 21M/ano.
 
-## Conteúdo
+## Conteudo Principal
 
-| Arquivo | Descrição |
+| Arquivo | Descricao |
 |---------|-----------|
-| `herreira.html` | Página completa: benchmarking, SWOT, auditoria UX, plano de assessoria |
-| `a-joia-que-sou.html` | Livro "A Joia que Sou" — 85 páginas, 16 capítulos, design editorial Gucci |
-| `a-joia-que-sou.txt` | Versão texto simples do livro (18K palavras) |
+| `herreira.html` | Pagina estrategica: benchmarking (10 concorrentes), SWOT, auditoria UX (19 issues), personal branding (5 frentes), plano financeiro |
+| `a-joia-que-sou.html` | Livro de Patricia Caramaschi — 85 paginas, 16 capitulos + epilogo, design editorial Gucci |
+| `a-joia-que-sou.txt` | Versao texto simples do livro (18.053 palavras) |
+| `llms.txt` | Ficha estruturada da Herreira para LLMs |
 
-## Análises incluídas
+## Infraestrutura Tecnica
 
-- **Benchmarking** contra 10 maiores joalherias do Brasil (Vivara, H.Stern, Monte Carlo, Rommanel, Pandora, Bergerson, Frattina, Jack Vartanian, Carla Amorim, Morana)
-- **Análise SWOT** completa com 7 itens por quadrante
-- **Auditoria UX/UI** com 19 problemas identificados e ranking de prioridade
-- **Personal Branding** de Patrícia Caramaschi — plano de 5 frentes (LinkedIn, YouTube, Instagram, Imprensa, Palestras)
-- **Livro autobiográfico** "A Joia que Sou" — storytelling com tom de voz autêntico
+Modulos reutilizaveis importados do ecossistema Brasil GEO:
 
-## Gerado por
+### Pipeline Multi-LLM (`src/`)
 
-Pipeline de LLMs: Claude Opus 4.6 + Chrome MCP (navegação real nos sites concorrentes) — Março 2026.
+| Modulo | Funcao |
+|--------|--------|
+| `orchestrator.py` | Decomposicao de tarefas e orquestracao multi-LLM |
+| `router.py` | Roteamento adaptativo (success*0.6 + cost*0.2 + latency*0.2) |
+| `llm_client.py` | Cliente HTTP unificado (OpenAI, Anthropic, Google, Perplexity, Groq) |
+| `pipeline.py` | Waves paralelas com checkpoints e quality gates |
+| `config.py` | Configuracao de providers, custos e limites |
+| `finops.py` | Engine de budget enforcement e alertas |
+| `cost_tracker.py` | Acumulador de custos por tarefa/LLM |
+| `circuit_breaker.py` | Protecao contra providers fora do ar |
+| `tracer.py` | Tracing com spans e timeline |
 
-## Publicado em
+### Collectors (`src/collectors/`)
 
-[alexandrecaramaschi.com/herreira.html](https://alexandrecaramaschi.com/herreira.html)
+- `citation_tracker.py` — Rastreia citacoes em LLMs
+- `competitor.py` — Benchmarking de concorrentes
+- `base.py` — Classe base abstrata
+
+### Database + FinOps (`src/db/`, `src/finops/`)
+
+- SQLite client com schema versionado
+- Monitor automatico: rollup, budget check, anomalias, alertas
+
+### Scripts e Tools
+
+- `scripts/send-report.py` — Relatorio HTML diario via Resend API
+- `scripts/sync_to_supabase.py` — Sincroniza para dashboard Supabase
+- `tools/validator.py` — Validador de arquivos llms.txt
+
+## Documentacao (`docs/`)
+
+- **Entity Consistency Playbook** — 5 etapas para consistencia de entidade em IAs
+- **GEO Checklist** — 60+ itens de otimizacao para motores generativos
+- **GEO Taxonomy** — Vocabulario estruturado (JSON + CSV)
+- **llms.txt Templates** — Templates para SaaS, e-commerce, personal brand
+- **llms.txt Spec** — Especificacao completa do formato
+
+## CI/CD (`.github/workflows/`)
+
+- `daily-collect.yml` — Coleta diaria com jobs paralelos
+- `weekly-benchmark.yml` — Benchmark semanal agregado
+
+## Links
+
+- [alexandrecaramaschi.com/herreira.html](https://alexandrecaramaschi.com/herreira.html)
+- [alexandrecaramaschi.com/a-joia-que-sou.html](https://alexandrecaramaschi.com/a-joia-que-sou.html)
+
+---
+
+**Brasil GEO** — Alexandre Caramaschi | Pipeline: Claude Opus 4.6 + Chrome MCP | Marco 2026
